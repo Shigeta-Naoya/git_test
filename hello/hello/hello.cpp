@@ -6,7 +6,11 @@
 
 int main()
 {
-	printf("Hello!world!\n");
+	int i, sum = 0;
+	for (int i = 0; i < 10; i++) {
+		sum += i + 1;
+	}
+	printf("sum = %d\n",sum);
 
     return 0;
 }
